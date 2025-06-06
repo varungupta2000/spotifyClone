@@ -22,28 +22,27 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
+import img1 from './img1.jpeg'
+import img2 from './img2.png'
+import img3 from './img3.jpeg'
 import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
+import img5 from './img5.jpeg'
+import img6 from './img6.jpeg'
+import img7 from './img7.webp'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img13 from './img13.jpg'
-import img14 from './img14.jpg'
-import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import img17 from './img17.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 import song4 from  './song4.mp3'
 import song5 from  './song5.mp3'
 import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -77,109 +76,102 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Top 50 tracks played globally",
         bgColor:"#2a4365"
     },
     {   
         id:1,
         name: "Top 50 India",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Top 50 tracks played in India",
         bgColor:"#22543d"
     },
     {   
         id:2,
         name: "Trending India",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Trending tracks all over India",
         bgColor:"#742a2a"
     },
     {   
         id:3,
         name: "Trending Global",
         image: img16,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Trending tracks globally",
         bgColor:"#44337a"
     },
     {   
         id:4,
-        name: "Mega Hits,",
+        name: "Mega Hits This Week",
         image: img11,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"
-    },
-    {   
-        id:5,
-        name: "Happy Favorites",
-        image: img15,
-        desc:"Your weekly update of the most played tracks",
-        bgColor:"#744210"
     }
 ]
 
 export const songsData = [
     {
         id:0,
-        name: "Kutti Story",
+        name: "Perfect",
         image: img1,
         file:song1,
-        desc:"Aniruth Ravichander,Thalapathy Vijay",
-        duration:"5:22"
+        desc:"Ed Sheeran",
+        duration:"4:39"
     },
     {
         id:1,
-        name: "VIP Title Song",
+        name: "Shape of You",
         image: img2,
         file:song2,
-        desc:"Anirudh Ravichander",
-        duration:"2:43"
+        desc:"Ed Sheeran",
+        duration:"4:23"
     },
     {
         id:2,
-        name: "Dharala Prabhu Title Track",
+        name: "I Adore You",
         image: img3,
         file:song3,
-        desc:"Anirudh Ravichander",
-        duration:"3:42"
+        desc:"HUGEL x Topic x Arash feat. Daecolm",
+        duration:"3:34"
     },
     {
         id:3,
-        name: "Hukum-Thalaivar Alappara",
+        name: "Laal Pari",
         image: img4,
         file:song4,
-        desc:"Anirudh Ravichander,Super Subu",
-        duration:"3:26"
+        desc:"Simar Kaur, Yo Yo Honey Singh",
+        duration:"3:04"
     },
     {
         id:4,
-        name: "Illuminati",
+        name: "With You",
         image: img5,
         file:song5,
-        desc:"Sushin Shyam, Dabzee, Vinayak Sasikumar",
-        duration:"2:28"
+        desc:"AP Dhillion",
+        duration:"2:35"
     },
     {
         id:5,
-        name: "Idhazin Oram-The Innocence of Love",
+        name: "Sapphire",
         image: img6,
         file:song6,
-        desc:"Anirudh Ravichander,Ajesh",
-        duration:"3:24"
+        desc:"Ed Sheeran ft. Arijit Singh",
+        duration:"3:03"
     },
     {
         id:6,
-        name: "Vaathi Coming",
+        name: "Ishq Hai",
         image: img7,
-        file:song1,
-        desc:"Aniruth Ravichander,Thalapathy Vijay",
-        duration:"3:48"
+        file:song7,
+        desc:"Anurag Saikia, Romy, Amarabha B, Varun J, Madhubanti B",
+        duration:"5:12"
     },
     {
         id:7,
-        name: "What a Karavaad",
-        image: img2,
-        file:song2,
-        desc:"Anirudh Ravichander,Dhanush",
-        duration:"4:27"
+        name: "Jigar Da Tukda",
+        image: img17,
+        file:song8,
+        desc:"Salim–Sulaiman and Shraddha Pandit",
+        duration:"4:14"
     }
 ]
